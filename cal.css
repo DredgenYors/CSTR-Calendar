@@ -1,0 +1,34 @@
+.calendar-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .day:hover {
+    background-color: #eee;
+  }
+  
+  .today {
+    background-color: #ff9;
+  }
+  
+  .event {
+    background-color: #9f9;
+  }
